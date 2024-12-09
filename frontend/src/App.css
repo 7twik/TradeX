@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Mysuru:wght@300;400;500;600;700&family=Parkinsans:wght@300..800&display=swap');
+*{
+    font-family: 'Hind Mysuru', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tophead {
+    
+    /* Modern vibrant gradient with better color distribution */
+    background: linear-gradient(90deg, #00bce6,#e65100  , #2962ff 50.31%, #f9ae00);
+    font-size: 5em;
+    /* Base text properties */
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    
+    /* Multi-layered shadow effect */
+   
+    
+    /* Animation for subtle gradient movement */
+    animation: gradientFlow 8s linear infinite;
+    background-size: 200% auto;
+}
+.customOverlay {
+    background: rgba(36, 123, 160, 0.7);
+  }
+  .customModal {
+    background: #fdfffe;
+    max-width: 500px;
+    width: 80vw !important;
+    border-radius: 10px;
+  }
+.container2{
+    height: 300px;
+    width: 300px;
+}
+/* Gradient animation */
+@keyframes gradientFlow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@media(max-width: 768px){
+    .hide{
+        display: none;
+    }
+    .tightmob{
+        width: 70vw;
+    }
+}
+
